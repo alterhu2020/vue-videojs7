@@ -51,7 +51,7 @@ export default {
         language: 'zh',
         inactivityTimeout: 0,
         preload: 'auto',
-        fluid: true,
+        fluid: false,
         techOrder: ['html5'],
         plugins: {}
       })

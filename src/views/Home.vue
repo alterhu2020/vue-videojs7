@@ -1,6 +1,13 @@
 <template>
   <div class="player">
-    <h3>Using Html5 to play m3u8 media file</h3>
+    <h3>Using Html5 to play m3u8 media file with video.js 7</h3>
+    <h4>Free m3u8 test resource: <a href="https://bitmovin.com/mpeg-dash-hls-examples-sample-streams/">https://bitmovin.com/mpeg-dash-hls-examples-sample-streams/</a> </h4>
+    <div>
+      <button @click="switchPlayer">Play</button> &nbsp;
+      <input type="text" v-model="src" style="width: 500px">
+    </div>
+    <br>
+
     <video-player ref="videoPlayer"
                   class="vjs-custom-skin"
                   :options="playerOptions"
@@ -20,6 +27,7 @@ export default {
   },
   data () {
     return {
+      src: 'https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8',
       playerOptions: {
         autoplay: true,
         controls: true,
@@ -54,6 +62,9 @@ export default {
       this.player.src(video)
       // this.player.load()
       this.player.play()
+    },
+    switchPlayer: function () {
+      this.playVideo(this.src)
     }
   },
   mounted () {
@@ -67,13 +78,14 @@ export default {
   .player {
     position: absolute !important;
     width: 100%;
-    height: 60%;
+    height: 100%;
   }
   .vjs-custom-skin {
-    height: 60% !important;
+    height: 80% !important;
   }
 
   .vjs-custom-skin /deep/ .video-js {
-    height: 60%;
+    width: 100% !important;
+    height: 100%;
   }
 </style>
