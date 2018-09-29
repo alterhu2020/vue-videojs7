@@ -8,14 +8,14 @@ A vue video.js 7 plugin, forked from :
 
 ### How to use 
 
-* Install the plugin
+#### 1. Install the plugin
 ```
 npm install vue-videojs7 --save
 
 ```
- * usage
+#### 2. usage
 
-2.1 Use with mount with global
+##### 2.1 Use with mount with global
 ```
 import Vue from 'vue'
 import {VideoPlayer} from 'vue-videojs7'
@@ -26,7 +26,7 @@ Vue.use(VideoPlayer, /* {
 } */)
 ```
 
-2.2 Use with mount with component 
+##### 2.2 Use with mount with component 
 
 ```
 import {videoPlayer} from 'vue-videojs7'
@@ -39,7 +39,7 @@ export default {
 
 ```
 
-### Example code
+### 3. Example code
 
 Detail full copied example from [Home.vue](https://github.com/alterhu2020/vue-videojs7/src/views/Home.vue)
 
@@ -127,10 +127,10 @@ export default {
 
 ```
 
-### Source Code 
+### 4. Source Code 
 
 [https://github.com/alterhu2020/vue-videojs7](https://github.com/alterhu2020/vue-videojs7)
 
-### Contact/Issues
+### 5. Contact/Issues
 
 Email: alterhu2020@gmail.com
