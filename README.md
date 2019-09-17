@@ -41,7 +41,7 @@ export default {
 
 ### 3. Example code
 
-Detail full copied example from [Home.vue](https://github.com/alterhu2020/vue-videojs7/src/views/Home.vue)
+Detail full copied example from [Home.vue](https://github.com/alterhu2020/vue-videojs7/blob/master/src/views/Home.vue)
 
 ```
 <template>
