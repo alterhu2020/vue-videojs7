@@ -1,10 +1,10 @@
 # vue-videojs7
 
-A vue video.js 7 plugin, forked from : 
+A vue video.js 7 plugin, so you can play m3u8 video within html5 easily forked from : 
 [https://github.com/surmon-china/vue-video-player](https://github.com/surmon-china/vue-video-player)
 ## Demo Example 
 
- [Demo for Video.js 7 player](https://blog.pingbook.top/vue-videojs7/)
+ [Demo for Video.js 7 m3u8 player](https://blog.pingbook.top/vue-videojs7/)
 
 ### How to use 
 
@@ -21,8 +21,8 @@ import Vue from 'vue'
 import {VideoPlayer} from 'vue-videojs7'
 
 Vue.use(VideoPlayer, /* {
-  options: global default options,
-  events: global videojs events
+  options: global default videojs options,
+  events: global videojs videojs events
 } */)
 ```
 

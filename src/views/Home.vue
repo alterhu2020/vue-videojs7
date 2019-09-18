@@ -1,29 +1,37 @@
 <template>
-  <div class="player">
-    <h3>Using Html5 to play m3u8 media file with video.js 7</h3>
-    <h4>Free m3u8 test resource: <a href="https://bitmovin.com/mpeg-dash-hls-examples-sample-streams/">https://bitmovin.com/mpeg-dash-hls-examples-sample-streams/</a> </h4>
-    <div>
-      <button @click="switchPlayer">Play</button> &nbsp;
-      <input type="text" v-model="src" style="width: 500px">
-    </div>
-    <br>
+    <div class="player">
+        <h3>Using Vue with html5 to play m3u8 media file with video.js 7 player</h3>
+        <h4>Free m3u8 player demo test resource: <a href="https://bitmovin.com/mpeg-dash-hls-examples-sample-streams/">https://bitmovin.com/mpeg-dash-hls-examples-sample-streams/</a>
+        </h4>
+        <div>
+            <button @click="switchPlayer">Play</button> &nbsp;
+            <input type="text" v-model="src" style="width: 500px">
+        </div>
+        <br>
 
-    <video-player ref="videoPlayer"
-                  class="vjs-custom-skin"
-                  :options="playerOptions"
-                  @play="onPlayerPlay($event)"
-                  @ready="onPlayerReady($event)">
-    </video-player>
-  </div>
+        <video-player ref="videoPlayer"
+                      class="vjs-custom-skin"
+                      :options="playerOptions"
+                      @play="onPlayerPlay($event)"
+                      @ready="onPlayerReady($event)">
+        </video-player>
+        <h3 style="text-align:center">Thanks for your support</h3>
+        <adsense
+                root-class="wrapper"
+                data-ad-client="ca-pub-1893384651266286"
+                data-ad-slot="3377657013"
+        ></adsense>
+    </div>
 </template>
 
 <script>
 import VideoPlayer from '@/components/VideoPlayer.vue'
+import Adsense from '@/components/xui-adsense/Adsense.vue'
 
 export default {
   name: 'home',
   components: {
-    VideoPlayer
+    VideoPlayer, Adsense
   },
   data () {
     return {
@@ -75,17 +83,18 @@ export default {
 </script>
 
 <style scoped>
-  .player {
-    position: absolute !important;
-    width: 100%;
-    height: 100%;
-  }
-  .vjs-custom-skin {
-    height: 80% !important;
-  }
+    .player {
+        position: absolute !important;
+        width: 100%;
+        height: 100%;
+    }
 
-  .vjs-custom-skin /deep/ .video-js {
-    width: 100% !important;
-    height: 100%;
-  }
+    .vjs-custom-skin {
+        height: 80% !important;
+    }
+
+    .vjs-custom-skin /deep/ .video-js {
+        width: 100% !important;
+        height: 100%;
+    }
 </style>
