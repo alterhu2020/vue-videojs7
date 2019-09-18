@@ -19,19 +19,21 @@
         <adsense
                 root-class="wrapper"
                 data-ad-client="ca-pub-1893384651266286"
-                data-ad-slot="3377657013"
+                data-ad-slot="7727965566"
         ></adsense>
+        <Ribbon text='Vue videojs7' url="https://github.com/alterhu2020/vue-videojs7" color='#ff7600' position='right-top'/>
     </div>
 </template>
 
 <script>
 import VideoPlayer from '@/components/VideoPlayer.vue'
-import Adsense from '@/components/xui-adsense/Adsense.vue'
+import Adsense from '@/components/xui-adsense/InArticleAdsense.vue'
+import Ribbon from 'vue-ribbon'
 
 export default {
   name: 'home',
   components: {
-    VideoPlayer, Adsense
+    VideoPlayer, Adsense, Ribbon
   },
   data () {
     return {
@@ -90,11 +92,11 @@ export default {
     }
 
     .vjs-custom-skin {
-        height: 80% !important;
+        height: 90% !important;
     }
 
     .vjs-custom-skin /deep/ .video-js {
         width: 100% !important;
-        height: 100%;
+        height: 90%;
     }
 </style>
