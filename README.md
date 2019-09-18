@@ -4,7 +4,7 @@ A vue video.js 7 plugin, forked from :
 [https://github.com/surmon-china/vue-video-player](https://github.com/surmon-china/vue-video-player)
 ## Demo Example 
 
- [Demo for Video.js 7 player](https://pingbook.top/vue-videojs7/)
+ [Demo for Video.js 7 player](https://blog.pingbook.top/vue-videojs7/)
 
 ### How to use 
 
