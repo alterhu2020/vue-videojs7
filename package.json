@@ -1,6 +1,6 @@
 {
   "name": "vue-videojs7",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "description": "A vue video player plugin using video.js 7.",
   "repository": {
     "type": "git",
@@ -28,7 +28,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
-    "video.js": "^7.2.3",
+    "video.js": "^7.11.4",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1",

@@ -19,7 +19,7 @@
         <adsense
                 root-class="wrapper"
                 data-ad-client="ca-pub-1893384651266286"
-                data-ad-slot="7727965566"
+                data-ad-slot="2627967536"
         ></adsense>
         <Ribbon text='Vue videojs7' url="https://github.com/alterhu2020/vue-videojs7" color='#ff7600' position='right-top'/>
     </div>
