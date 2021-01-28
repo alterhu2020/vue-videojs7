@@ -1,10 +1,14 @@
 # vue-videojs7
 
-A vue video.js 7 plugin, so you can play m3u8 video within html5 easily forked from : 
+A vue video.js7 plugin, so you can play hls video(m3u8 format) within html5 easily forked from : 
 [https://github.com/surmon-china/vue-video-player](https://github.com/surmon-china/vue-video-player)
 ## Demo Example 
 
+<<<<<<< HEAD
  [Demo for Video.js 7 m3u8 player](https://code.seniortesting.club/vue-videojs7/)
+=======
+ [Demo for Video.js 7 hls player](https://code.pingbook.top/vue-videojs7/)
+>>>>>>> fd58a88f752d0604feaa7707870887b6bc8e91ce
 
 ### How to use 
 
