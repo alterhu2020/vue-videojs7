@@ -4,8 +4,15 @@
   "description": "nuxt example",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
   },
   "author": "Walter Hu",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "nuxt": "^2.14.5",
+    "vue-videojs7": "^0.1.5"
+  }
 }

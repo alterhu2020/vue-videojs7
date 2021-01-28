@@ -18,4 +18,4 @@ const install = function (Vue, config) {
   Vue.component(videoPlayer.name, videoPlayer)
 }
 
-export { videoPlayer, install }
+export default { videoPlayer, install }
