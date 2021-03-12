@@ -55,10 +55,8 @@ export default {
   },
   methods: {
     onPlayerPlay (player) {
-      console.log('player play!', player)
     },
     onPlayerReady (player) {
-      console.log('player ready!', player)
       this.player.play()
     },
     playVideo: function (source) {
