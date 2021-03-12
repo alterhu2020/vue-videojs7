@@ -1,21 +1,22 @@
 # vue-videojs7
 
-A vue video.js7 plugin, so you can play hls video(m3u8 format) within html5 easily forked from : 
+A vue video.js7 plugin, so you can play hls video(m3u8 format) within html5 easily, original forked from : 
 [https://github.com/surmon-china/vue-video-player](https://github.com/surmon-china/vue-video-player)
+
 ## Demo Page 
 
 [Demo for Video.js 7 m3u8 player](https://code.seniortesting.club/vue-videojs7/)
 
-### How to use 
+## How to use 
 
-#### 1. Install the plugin
+### 1. Install the plugin
 ```
+yarn add vue-videojs7
 npm install vue-videojs7 --save
-
 ```
-#### 2. usage
+### 2. usage
 
-##### 2.1 Use with mount as global
+#### 2.1 Method1: Use with mount as global
 ```
 import Vue from 'vue'
 import {VideoPlayer} from 'vue-videojs7'
@@ -26,7 +27,7 @@ Vue.use(VideoPlayer, /* {
 } */)
 ```
 
-##### 2.2 Use with mount as component 
+#### 2.2 Method2: Use with mount as component 
 
 ```
 import {videoPlayer} from 'vue-videojs7'
@@ -39,7 +40,7 @@ export default {
 
 ```
 
-##### 2.3 Integration with nuxt as plugin
+#### 2.3 Method3: Integration with nuxt as plugin
 
 1. Create a nuxt plugin located in this place: `~/plugins/vue-videojs7.js`, put below code:
 
@@ -75,7 +76,7 @@ Vue.use(VideoPlayer, /* {
 
 For detail configuration in nuxt project, check the [example nuxt code](https://github.com/alterhu2020/vue-videojs7/tree/master/examples/nuxt/)
 
-### 3. Example code
+## Example code
 
 Detail full copied example from [Home.vue](https://github.com/alterhu2020/vue-videojs7/blob/master/src/views/Home.vue)
 
@@ -163,10 +164,6 @@ export default {
 
 ```
 
-### 4. Source Code 
-
-[https://github.com/alterhu2020/vue-videojs7](https://github.com/alterhu2020/vue-videojs7)
-
-### 5. Contact/Issues
+## Contact/Issues
 
 Email: alterhu2020@gmail.com
