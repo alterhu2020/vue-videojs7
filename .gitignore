@@ -1,5 +1,6 @@
 .DS_Store
 node_modules
+
 # /dist
 
 # local env files
@@ -21,3 +22,4 @@ yarn-error.log*
 *.sw*
 
 .nuxt
+package-lock.json

@@ -1,7 +1,7 @@
 <template>
     <div class="player">
-        <h3>Using Vue with html5 to play m3u8 media file with video.js 7 player</h3>
-        <h4>Free m3u8 player demo test resource: <a href="https://bitmovin.com/mpeg-dash-hls-examples-sample-streams/">https://bitmovin.com/mpeg-dash-hls-examples-sample-streams/</a>
+        <h3>Using Vue style to play m3u8 media file with video.js 7 player</h3>
+        <h4>Free m3u8 player demo resource: <a href="https://bitmovin.com/mpeg-dash-hls-examples-sample-streams/">https://bitmovin.com/mpeg-dash-hls-examples-sample-streams/</a>
         </h4>
         <div>
             <button @click="switchPlayer">Play</button> &nbsp;
@@ -13,13 +13,12 @@
                       class="vjs-custom-skin"
                       :options="playerOptions"
                       @play="onPlayerPlay($event)"
-                      @ready="onPlayerReady($event)">
-        </video-player>
+                      @ready="onPlayerReady($event)" />
         <h3 style="text-align:center">Thanks for your support</h3>
         <adsense
                 root-class="wrapper"
                 data-ad-client="ca-pub-1893384651266286"
-                data-ad-slot="2627967536"
+                data-ad-slot="7727965566"
         ></adsense>
         <Ribbon text='Vue videojs7' url="https://github.com/alterhu2020/vue-videojs7" color='#ff7600' position='right-top'/>
     </div>

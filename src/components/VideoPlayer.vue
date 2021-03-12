@@ -20,7 +20,7 @@ import _videojs from 'video.js'
 const videojs = window.videojs || _videojs
 
 export default {
-  name: 'videoplayer',
+  name: 'VideoPlayer',
   props: {
     crossOrigin: {
       type: String,
@@ -45,7 +45,7 @@ export default {
     globalOptions: {
       type: Object,
       default: () => ({
-        // 查看文档: https://docs.videojs.com/tutorial-options.html#fluid
+        // document: https://docs.videojs.com/tutorial-options.html#fluid
         autoplay: true,
         controls: true,
         language: 'zh',
