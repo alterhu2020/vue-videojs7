@@ -164,6 +164,19 @@ export default {
 
 ```
 
-## Contact/Issues
+## Donate 
 
-Email: alterhu2020@gmail.com
+`vue-videojs7` is an MIT licensed open source project and completely free to use. However, the amount of effort needed to maintain and develop new features for the project is not sustainable without proper financial backing.
+
+### One-time Donations
+
+We accept donations through these channels:
+
+- [Paypal](https://paypal.me/alterhu2020)
+- [WeChat Pay](https://imgur.com/fqPZmHx)
+- [Alipay](https://imgur.com/cFdABPL)
+
+## Author
+
+**vue-videojs7** © alterhu2020, Released under the MIT License.
+Authored and maintained by alterhu2020 with help from contributors.
