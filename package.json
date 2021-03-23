@@ -1,6 +1,6 @@
 {
   "name": "vue-videojs7",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A vue video player plugin using video.js 7.",
   "repository": {
     "type": "git",
@@ -43,7 +43,7 @@
     "@vue/cli-plugin-babel": "^3.0.4",
     "@vue/cli-plugin-eslint": "^3.0.4",
     "@vue/cli-plugin-unit-jest": "^3.0.4",
-    "@vue/cli-service": "^3.0.4",
+    "@vue/cli-service": "^4.5.12",
     "@vue/eslint-config-standard": "^3.0.4",
     "@vue/test-utils": "^1.0.0-beta.20",
     "babel-core": "7.0.0-bridge.0",
